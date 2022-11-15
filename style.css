@@ -554,6 +554,14 @@ div#zoovu-assistant .questionnaire-wrapper .advice .advice-recommended .picon-p-
 
 }
 
+@media screen and (max-width: 764px) {
+  div#zoovu-assistant .questions-wrapper .single-question-wrapper span.subQuestion {
+    font-size: 20px;
+    line-height: 2;
+  }
+
+}
+
 
 
 
