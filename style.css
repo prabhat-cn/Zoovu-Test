@@ -1,0 +1,635 @@
+/* Task 1 */
+/* Write your CSS here */
+/* Example below changes the font-size of the answer text */
+/* .answer-text {
+  font-size: 25px !important;
+} */
+
+.container-0-0-60  {
+
+  font-family: "Dyson.ttf", sans-serif !important;
+}
+
+.container-0-0-60 * {
+
+  font-family: "Dyson.ttf", sans-serif !important;
+}
+
+.container-0-0-4 {
+  font-family: "Dyson.ttf", sans-serif !important;
+}
+
+.container-0-0-4 * {
+
+  font-family: "Dyson.ttf", sans-serif !important;
+}
+
+
+div#zoovu-assistant .page-selector-wrapper button.page-selector.is-selected {
+  border-color: rgb(101, 101, 101);
+  border-bottom-width: 5px;
+}
+
+div#zoovu-assistant .page-selector-wrapper button.page-selector {
+  border-color: rgb(250, 250, 250);
+  border-bottom-width: 5px;
+}
+
+div#zoovu-assistant .page-selector-wrapper button.page-selector:after {
+  display: none;
+}
+
+div#zoovu-assistant .questions-wrapper .single-question-wrapper section > p {
+  color: rgb(101, 101, 101);
+  width: 100%;
+  margin: 0px 0px 70px;
+  text-align: center;
+  font-size: 30.4px;
+  font-family: "Dyson.ttf", sans-serif;
+}
+
+div#zoovu-assistant .questions-wrapper .single-question-wrapper span.subQuestion {
+  font-size: 0.7em;
+  font-weight: 300;
+  font-family: "Dyson.ttf", sans-serif !important;
+  line-height: 3;
+}
+
+div#zoovu-assistant section span.page-selector-wrapper {
+  /* padding-top: 10px; */
+  padding-bottom: 10px;
+}
+
+div#zoovu-assistant .question-type-hint {
+  color: rgb(101, 101, 101);
+  display: block;
+  font-size: 16px;
+  text-align: center;
+  font-weight: 400;
+  margin-bottom: 20px;
+  letter-spacing: 0.25px;
+}
+
+div#zoovu-assistant .answer.has-image .answer-text {
+  padding-right: 30px;
+  padding-bottom: 15px;
+  color: rgb(252, 252, 252);
+  font-size: 19.2px;
+}
+
+div#zoovu-assistant span.pages-navigation-wrapper {
+  border-bottom: 0px;
+  padding: 20px 0px;
+}
+
+div#zoovu-assistant .pages-navigation-wrapper .navigation-next-button, .pages-navigation-wrapper .navigation-submit-button {
+  color: rgb(192, 192, 192);
+  border: none;
+  cursor: pointer;
+  padding: 15px;
+  position: relative;
+  font-size: 16px;
+  min-width: 150px;
+  background: rgb(250, 250, 250);
+  text-align: center;
+  font-weight: bold;
+  text-transform: none;
+}
+
+div#zoovu-assistant .advice {
+  padding-top: 0px;
+}
+
+div#zoovu-assistant .cluster h3.cluster-headline {
+  color: #303030;
+}
+
+div#zoovu-assistant .sort .sort-wrapper p{
+  color: rgb(0, 0, 0);
+}
+
+
+
+div#zoovu-assistant .sort .sort-wrapper .sort-select {
+  border: 1px solid rgb(221, 221, 221);
+  padding: 11px 15px;
+  color: rgb(0, 0, 0);
+}
+
+div#zoovu-assistant .product {
+  border: 1px solid rgb(221, 221, 221);
+  padding: initial;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+div#zoovu-assistant .product a.product-name {
+  color: rgb(48, 48, 48);
+  width: 100%;
+  display: block;
+  font-size: 20px;
+  text-align: left;
+  line-height: 1.2;
+  margin-bottom: 0px;
+  text-decoration: none;
+  font-weight: normal;
+
+  order:2;
+  padding: 0 10px;
+  min-height: 50px;
+
+}
+
+div#zoovu-assistant .product-details {
+  /* padding: 10px; */
+  width: 100%;
+  position:relative;
+}
+
+
+
+div#zoovu-assistant .product-image {
+  height: 200px;
+  position: relative;
+  margin-bottom: 30px !important;
+}
+
+div#zoovu-assistant .product-image a {
+  text-align: center;
+}
+
+div#zoovu-assistant .product .product-compare-wrapper label, 
+div#zoovu-assistant .product-compare-wrapper .start-compare-button {
+ color: #303030;
+ background-color: transparent;
+}
+
+
+div#zoovu-assistant .properties-title {
+  display: none;
+
+}
+
+
+
+.price-compare-wrapper .product-price {
+  /* position: absolute; */
+  /* margin-top: 70px; */
+  align-items: flex-start;
+  font-weight: 600;
+  padding: 0 20px;
+
+
+
+  position:static;     margin: 14px 0 40px; order:3
+}
+
+.price-compare-wrapper .product-price span.price-regular.price {
+  float: left;
+  font-size: 20px;
+  color: rgb(48, 48, 48);
+  font-weight: 500;
+
+}
+
+
+
+div#zoovu-assistant .product-footer {
+  display: block;
+  width: 50%;
+}
+
+div#zoovu-assistant .product-footer .product-button.go-to-product-button {
+color: white;
+border: none;
+background: rgb(121, 185, 40);
+padding: 10px;
+font-size: 14px;
+font-weight: 600;
+text-transform: none;
+margin: auto;
+width: 100%;
+float: left;
+}
+
+div#zoovu-assistant .product-details .product-attributes-toggle {
+  color: rgb(48, 48, 48);
+  font-size: 14px;
+  text-transform: none;
+  transition: background 0.3s ease 0s;
+  text-decoration: none;
+  background: rgb(224, 222, 222);
+  position: absolute;
+  width: 50%;
+  padding: 10px;
+  margin: 0 auto 0;
+  bottom: 0;
+  right: 0;
+  font-weight: 500;
+}
+
+
+
+
+
+
+
+
+
+
+div#zoovu-assistant .price-compare-wrapper {
+  display: flex;
+  flex-direction: column;
+  order:3;
+}
+
+div#zoovu-assistant .product-compare-wrapper{order:2; text-align: left;}
+
+div#zoovu-assistant .product-properties{display:none;}
+
+
+
+
+
+
+
+div#zoovu-assistant .answer-image::before {
+  top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    content: "";
+    z-index: 1;
+    position: absolute;
+    transform: scale3d(1.9, 1.4, 1) rotate3d(0, 0, 1, 45deg) translate3d(0px, -100%, 0px);
+    background-color: rgba(255, 255, 255, 0.5);
+    transition-duration: 0.6s;
+    transition-property: transform;
+}
+
+div#zoovu-assistant .answer:hover .answer-image::before {
+  transform: scale3d(1.9, 1.4, 1) rotate3d(0, 0, 1, 45deg) translate3d(0px, 100%, 0px);
+}
+
+div#zoovu-assistant .sort-panel .option {
+  color: rgb(0, 0, 0);
+}
+
+div#zoovu-assistant .sort-panel .option:hover {
+  background-color: rgb(221, 221, 221);
+}
+
+
+div#zoovu-assistant button.navigation-back-button {
+  position: absolute;
+  top: 50px;
+  border: none;
+  color: rgb(101, 101, 101);
+  font-size: 16px;
+  text-transform: initial;
+  text-decoration: underline;
+}
+
+div#zoovu-assistant button.navigation-back-button::before {
+  content: "< \00a0";
+  display:inline-block;
+}
+
+div#zoovu-assistant button.start-over-button {
+  background-color: rgb(224, 222, 222);
+  color: rgb(48, 48, 48);
+  text-transform: initial;
+}
+
+div#zoovu-assistant .navigation-next-in-progress{
+  background: rgb(37, 37, 37);
+  color: #303030;
+  border: none;
+}
+
+div#zoovu-assistant .answer.is-selected.has-image  .label::before {
+  background-color: rgb(101 101 101);
+} 
+
+div#zoovu-assistant .answer.is-selected.has-image  .answer-content::before {
+  background-color: rgb(101 101 101);
+} 
+
+div#zoovu-assistant .answer.is-selected.has-image  .answer-content::after {
+  background-color: rgb(101 101 101);
+} 
+
+div#zoovu-assistant button.navigation-back-button:hover {
+  background: transparent;
+}
+
+
+div#zoovu-assistant button.navigation-back-button:focus {
+  outline-color: transparent
+}
+
+div#zoovu-assistant .advice-top-products h3.top-product__header {
+ color: #303030;
+}
+
+div#zoovu-assistant .top-product a.product-name {
+  color: rgb(48, 48, 48);
+  font-size: 20px;
+  font-weight: 500;
+}
+
+div#zoovu-assistant .top-product .image-wrapper {
+  width: 100%;
+  padding: 10px;
+}
+
+div#zoovu-assistant .top-product .product-price {
+  color: rgb(48, 48, 48);
+  font-size: 20px;
+  font-weight: 600;
+}
+
+div#zoovu-assistant .advice-top-products .top-product  .compare-wrapper .compare-button label {
+  background-color: transparent;
+  color: #303030;
+}
+
+div#zoovu-assistant .product-top-tile {
+  top: -56px;
+  background: rgb(48, 48, 48);
+}
+
+div#zoovu-assistant .product-top-tile i.top-tile-icon {
+  display: none;
+}
+
+div#zoovu-assistant .product-top-tile h4, div#zoovu-assistant .product-top-tile p {
+  font-size: 13px;
+  font-weight: 300;
+  display: inline-block;
+}
+
+div#zoovu-assistant .advice-top-products .top-product {
+  border: 1px solid rgb(48, 48, 48);
+}
+
+
+div#zoovu-assistant .advice-top-products .top-product .product-image img {
+  margin-top: 60px;
+}
+
+div#zoovu-assistant .top-product  .compare-wrapper {
+  margin-bottom: 30px;
+}
+
+/* Product Cart button */
+
+div#zoovu-assistant .top-product .product-details .product-attributes-toggle {
+  width: 24%;
+  text-align: center;
+  right: 24rem;
+}
+
+div#zoovu-assistant .top-product .product-details .product-footer a.product-button.go-to-product-button {
+  width: 50%;
+  float: left;
+}
+
+
+div#zoovu-assistant .questionnaire-wrapper .advice .advice-recommended .picon-p-add-news {
+  display: none;
+}
+
+@media screen and (max-width: 1450px) {
+  div#zoovu-assistant .top-product .product-details .product-attributes-toggle {
+
+    right: 23.6rem;
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  div#zoovu-assistant .top-product .product-details .product-attributes-toggle {
+
+    right: 22rem;
+  }
+}
+
+@media screen and (max-width: 1390px) {
+  div#zoovu-assistant .top-product .product-details .product-attributes-toggle {
+
+    right: 21rem;
+  }
+}
+
+
+@media screen and (max-width: 1350px) {
+  div#zoovu-assistant .top-product .product-details .product-attributes-toggle {
+
+    right: 20.7rem;
+  }
+}
+
+
+
+
+@media screen and (max-width: 1320px) {
+  div#zoovu-assistant .top-product .product-details .product-attributes-toggle {
+
+    right: 20rem;
+  }
+}
+
+
+@media screen and (max-width: 1300px) {
+  div#zoovu-assistant .top-product .product-details .product-attributes-toggle {
+
+    right: 19.8rem;
+  }
+}
+
+
+@media screen and (max-width: 1280px) {
+  div#zoovu-assistant .top-product .product-details .product-attributes-toggle {
+
+    right: 19.4rem;
+  }
+}
+
+
+@media screen and (max-width: 1250px) {
+  div#zoovu-assistant .top-product .product-details .product-attributes-toggle {
+
+    right: 19rem;
+  }
+}
+
+
+@media screen and (max-width: 1200px) {
+  div#zoovu-assistant .top-product .product-details .product-attributes-toggle {
+
+    right: 18.2rem;
+  }
+}
+
+
+@media screen and (max-width: 1180px) {
+  div#zoovu-assistant .top-product .product-details .product-attributes-toggle {
+
+    right: 17.9rem;
+  }
+}
+
+@media screen and (max-width: 1150px) {
+  div#zoovu-assistant .top-product .product-details .product-attributes-toggle {
+
+    right: 17.2rem;
+  }
+}
+
+
+
+@media screen and (max-width: 1100px) {
+  div#zoovu-assistant .top-product .product-details .product-attributes-toggle {
+
+    right: 16.5rem;
+  }
+}
+
+
+
+
+@media screen and (max-width: 1024px) {
+  div#zoovu-assistant .top-product .product-details .product-attributes-toggle {
+
+    right: 15.4rem;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  div#zoovu-assistant .top-product .product-details .product-attributes-toggle {
+
+    right: 14.8rem;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  div#zoovu-assistant .top-product .product-details .product-attributes-toggle {
+
+    right: 14rem;
+  }
+}
+
+@media screen and (max-width: 920px) {
+  div#zoovu-assistant .top-product .product-details .product-attributes-toggle {
+
+    right: 13.8rem;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  div#zoovu-assistant .top-product .product-details .product-attributes-toggle {
+
+    right: 13.2rem;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  div#zoovu-assistant .top-product .product-details .product-attributes-toggle {
+
+    right: 12.5rem;
+  }
+}
+
+@media screen and (max-width: 800px) {
+
+  div#zoovu-assistant .top-product .product-details .product-footer a.product-button.go-to-product-button {
+    width: 100%;
+  }
+
+  div#zoovu-assistant .top-product .product-details .product-attributes-toggle {
+    width: 50%;
+    right: 1rem;
+  }
+
+}
+
+
+
+
+
+@media screen and (max-width: 760px) {
+  div#zoovu-assistant .top-product .product-details .product-attributes-toggle {
+    color: rgb(48, 48, 48);
+    font-size: 14px;
+    text-transform: none;
+    transition: background 0.3s ease 0s;
+    text-decoration: none;
+    background: rgb(224, 222, 222);
+    position: absolute;
+    width: 50%;
+    padding: 10px;
+    margin: 0 auto 0;
+    bottom: 0;
+    right: 0;
+    font-weight: 500;
+  }
+  
+  div#zoovu-assistant .top-product .product-details .product-footer a.product-button.go-to-product-button {
+    color: white;
+    border: none;
+    background: rgb(121, 185, 40);
+    padding: 10px;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: none;
+    margin: auto;
+    width: 100%;
+    float: left;
+  }
+
+  div#zoovu-assistant .top-product .product-price {
+    margin-bottom: 30px;
+    text-align: left;
+    padding-left: 10px;
+  }
+
+  div#zoovu-assistant .top-product  {
+    padding-bottom: 0px;
+  }
+
+  div#zoovu-assistant .top-product a.product-name {
+    text-align: left;
+    padding-left: 10px;
+    margin-bottom: 15px;
+  }
+
+  div#zoovu-assistant .section-type--results_page .sort {
+    padding-top: 60px;
+    
+  }
+}
+
+
+/* Testing */
+
+.picon-p-add-news {
+  color: white;
+  border: none;
+  background:rgb(97 102 170 / 88%);
+  padding: 10px;
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: none;
+  text-decoration: none;
+  position: absolute;
+  left: 0;
+  top: 50px;
+  width: 100%;
+  text-align: center;
+}
+
+
+
+
+
