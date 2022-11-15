@@ -435,6 +435,10 @@ div#zoovu-assistant .modal-body table tbody tr th, div#zoovu-assistant .modal-bo
   color: #333;
 }
 
+div#zoovu-assistant .modal-body {
+  padding: 15px;
+}
+
 div#zoovu-assistant .modal-body .alternative-products-head {
   color: rgb(0, 0, 0);
 }
@@ -442,7 +446,6 @@ div#zoovu-assistant .modal-body .alternative-products-head {
 div#zoovu-assistant .modal-header {
   color: #333;
   border-bottom: 1px solid #e5e5e5;
-  margin-bottom: 16px;
 }
 
 @media screen and (max-width: 1450px) {
