@@ -375,6 +375,10 @@ div#zoovu-assistant .product-top-tile i.top-tile-icon {
   display: none;
 }
 
+div#zoovu-assistant .cluster-wrapper .cluster.cluster-alternatives .products-wrapper .product .picon-p-add-news {
+  display: none;
+}
+
 div#zoovu-assistant .product-top-tile h4, div#zoovu-assistant .product-top-tile p {
   font-size: 13px;
   font-weight: 300;
