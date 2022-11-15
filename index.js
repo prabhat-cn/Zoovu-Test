@@ -50,102 +50,28 @@ setInterval(() => {
 
 // add button listener
 
-var elemButtonSelected = document.getElementsByClassName('is-selected');
-// console.log('elemButton->', elemButton);
+let intervalTime = setInterval(() => {
+  let mainId = document.getElementById('zoovu-assistant');
+  mainId.setAttribute('class', 'zoovu-main');
 
-setInterval(() => {
-  var elemButton1 = document.querySelectorAll("[data-index='0']");
-  console.log('elemButton1->', elemButton1);
-  var elemButton2 = document.querySelectorAll("[data-index='1']");
-  console.log('elemButton2->', elemButton2);
-  var elemButton3 = document.querySelectorAll("[data-index='2']");
-  console.log('elemButton3->', elemButton3);
+  let elemButtonSelected = document.getElementsByClassName('page-selector');
+  for (let i = 0; i < elemButtonSelected.length; i++) {
+    let strCounter = i + 1;
 
-  if (
-    document.getElementsByClassName('is-selected') &&
-    document.querySelectorAll("[data-index='0']")
-  ) {
-    elemButton1[0].classList.add('step-1');
-    var mainId = document.getElementById('zoovu-assistant');
-    if (
-      document.getElementById('zoovu-assistant') &&
-      document.getElementsByClassName('step-1')
-    ) {
-      mainId.setAttribute('class', 'zoovu-main');
-      var zooMain = document.getElementsByClassName('zoovu-main');
-      if (document.getElementsByClassName('zoovu-main')) {
-        zooMain[0].classList.add('step-1');
-        // zooMain[0].classList.remove('step-1');
-      }
+    let isExist = elemButtonSelected[i]
+      .getAttribute('class')
+      .indexOf('is-selected');
+    if (isExist !== -1) {
+      mainId.setAttribute('class', 'zoovu-main step-' + strCounter);
     }
+    elemButtonSelected[i].addEventListener('click', () => {
+      mainId.removeAttribute('class');
+      mainId.setAttribute('class', 'zoovu-main step-' + strCounter);
+    });
   }
-  // if (
-  //   document.getElementsByClassName('is-selected') &&
-  //   document.querySelectorAll("[data-index='1']")
-  // ) {
-  //   elemButton2[0].classList.add('step-2');
-  //   var mainId = document.getElementById('zoovu-assistant');
-
-  //   if (
-  //     document.getElementById('zoovu-assistant') &&
-  //     document.getElementsByClassName('step-2')
-  //   ) {
-  //     mainId.setAttribute('class', 'zoovu-main');
-  //     var zooMain = document.getElementsByClassName('zoovu-main');
-  //     if (document.getElementsByClassName('zoovu-main')) {
-  //       zooMain[0].classList.add('step-2');
-  //       // zooMain[0].classList.remove('step-1');
-  //     }
-  //   }
-  // }
-  // if (
-  //   document.getElementsByClassName('is-selected') &&
-  //   document.querySelectorAll("[data-index='2']")
-  // ) {
-  //   elemButton3[0].classList.add('step-3');
-  //   var mainId = document.getElementById('zoovu-assistant');
-
-  //   if (
-  //     document.getElementById('zoovu-assistant') &&
-  //     document.getElementsByClassName('step-3')
-  //   ) {
-  //     mainId.setAttribute('class', 'zoovu-main');
-  //     var zooMain = document.getElementsByClassName('zoovu-main');
-  //     if (document.getElementsByClassName('zoovu-main')) {
-  //       zooMain[0].classList.add('step-3');
-  //       // zooMain[0].classList.remove('step-1');
-  //     }
-  //   }
-  // }
-
-  // var elemButton1 = document.getElementsByClassName('is-selected')[0];
-  // console.log('elemButton1->', elemButton1);
-
-  // var elemButton2 = document.getElementsByClassName('is-selected')[1];
-  // console.log('elemButton2->', elemButton2);
-  // var elemButton3 = document.getElementsByClassName('is-selected')[2];
-  // console.log('elemButton3->', elemButton3);
-  // if (document.getElementsByClassName('is-selected')) {
-  //   if (document.getElementsByClassName('is-selected')[0]) {
-  //     elemButton1[0].classList.add('step-1');
-  //     var elmSelectedBtn = document.getElementsByClassName('step-1');
-  //     var mainId = document.getElementById('zoovu-assistant');
-  // if (
-  //   document.getElementById('zoovu-assistant') &&
-  //   document.getElementsByClassName('step-1')
-  // ) {
-  //   mainId.setAttribute('class', 'zoovu-main');
-  //   var zooMain = document.getElementsByClassName('zoovu-main');
-  //   if (document.getElementsByClassName('zoovu-main')) {
-  //     zooMain[0].classList.add('step-1');
-  //     // zooMain[0].classList.remove('step-1');
-  //   }
-  // }
-  //   }
-  // } else {
-  //   elemButton1[0].classList.remove('step-1');
-  // }
 }, 1000);
+
+// clearInterval(intervalTime);
 
 // let doc = document.querySelectorAll('.container-0-0-45')[0].after(aTag);
 // console.log('doc->', doc);
