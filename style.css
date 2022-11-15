@@ -422,6 +422,29 @@ div#zoovu-assistant  .tooltip .tooltip-inner {
   max-width: 200px;
 }
 
+div#zoovu-assistant .modal-body .product-name a {
+  color: #337ab7;
+  text-decoration: none;
+}
+
+div#zoovu-assistant .modal-body .product-price .price-regular.price {
+  color: #333333
+}
+
+div#zoovu-assistant .modal-body table tbody tr th, div#zoovu-assistant .modal-body table tbody tr td {
+  color: #333;
+}
+
+div#zoovu-assistant .modal-body .alternative-products-head {
+  color: rgb(0, 0, 0);
+}
+
+div#zoovu-assistant .modal-header {
+  color: #333;
+  border-bottom: 1px solid #e5e5e5;
+  margin-bottom: 16px;
+}
+
 @media screen and (max-width: 1450px) {
   div#zoovu-assistant .top-product .product-details .product-attributes-toggle {
 
