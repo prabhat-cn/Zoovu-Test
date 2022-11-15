@@ -545,6 +545,23 @@ div#zoovu-assistant .modal-header {
 
 
 
+@media screen and (max-width: 1096px) {
+  div#zoovu-assistant .advice-top-products .top-product{
+
+    height: 40rem;
+  }
+
+  div#zoovu-assistant .top-product .product-price {
+    margin-bottom: 30px;
+  }
+
+  div#zoovu-assistant .top-product .product-details .product-attributes-toggle {
+
+    right: 0rem;
+  }
+}
+
+
 
 @media screen and (max-width: 1024px) {
   div#zoovu-assistant .top-product .product-details .product-attributes-toggle {
