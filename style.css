@@ -5,7 +5,18 @@
   font-size: 25px !important;
 } */
 
-.container-0-0-60  {
+/* Import Font family */
+@font-face {
+  font-family: dysonFont;
+  src: url(https://d3smx8fpgq4j0l.cloudfront.net/zoovu/827ba865-d688-4ceb-b6d3-9f9ed6136228);
+}
+
+/* Apply font family */
+* {
+  font-family: dysonFont !important;
+}
+
+/* .container-0-0-60  {
 
   font-family: "Dyson.ttf", sans-serif !important;
 }
@@ -22,7 +33,7 @@
 .container-0-0-4 * {
 
   font-family: "Dyson.ttf", sans-serif !important;
-}
+} */
 
 
 div#zoovu-assistant .page-selector-wrapper button.page-selector.is-selected {
@@ -401,6 +412,16 @@ div#zoovu-assistant .questionnaire-wrapper .advice .advice-recommended .picon-p-
   display: none;
 }
 
+div#zoovu-assistant  .tooltip .tooltip-inner {
+  padding: 5px 10px 4px;
+  background: rgb(221, 221, 221);
+  color: rgb(0, 0, 0);
+  font-size: 14.4px;
+  text-align: center;
+  border-radius: 4px;
+  max-width: 200px;
+}
+
 @media screen and (max-width: 1450px) {
   div#zoovu-assistant .top-product .product-details .product-attributes-toggle {
 
@@ -622,9 +643,9 @@ div#zoovu-assistant .questionnaire-wrapper .advice .advice-recommended .picon-p-
 /* Testing */
 
 .picon-p-add-news {
-  color: white;
+  color: rgb(48, 48, 48);
   border: none;
-  background:rgb(97 102 170 / 88%);
+  background:rgb(224, 222, 222);
   padding: 10px;
   font-size: 14px;
   font-weight: 600;
