@@ -73,7 +73,7 @@ div#zoovu-assistant .questions-wrapper .single-question-wrapper span.subQuestion
 }
 
 div#zoovu-assistant section span.page-selector-wrapper {
-  /* padding-top: 10px; */
+  padding-top: 0px;
   padding-bottom: 10px;
 }
 
@@ -263,7 +263,25 @@ div#zoovu-assistant .price-compare-wrapper {
 
 div#zoovu-assistant .product-compare-wrapper{order:2; text-align: left;}
 
-div#zoovu-assistant .product-properties{display:none;}
+div#zoovu-assistant .product-properties{display:block;}
+
+div#zoovu-assistant .product-properties .neutral-property {
+  color: rgb(48, 48, 48);
+}
+
+div#zoovu-assistant .products-wrapper .product .product-properties .neutral-property i {
+  background: url("//tiger-cdn.zoovu.com/themes/ThemeOxygen-2a0e8e2bdaacd9478cae30a3e9b0a1acf0ca07b6/assets/b742878791ba0b06161beb2361ba7518.svg") 0px -76px no-repeat;
+}
+
+div#zoovu-assistant .products-wrapper .product .product-properties i {
+  width: 20px;
+  height: 20px;
+  top: 8px;
+}
+
+div#zoovu-assistant .products-wrapper .product .positive-property, div#zoovu-assistant .products-wrapper .product .negative-property, div#zoovu-assistant .top-product .product-details .product-properties .positive-property, div#zoovu-assistant .top-product .product-details .product-properties .negative-property  {
+  color: rgb(48, 48, 48);
+}
 
 
 
@@ -300,12 +318,13 @@ div#zoovu-assistant .sort-panel .option:hover {
 
 div#zoovu-assistant button.navigation-back-button {
   position: absolute;
-  top: 50px;
+  top: 12px;
   border: none;
   color: rgb(101, 101, 101);
   font-size: 16px;
   text-transform: initial;
   text-decoration: underline;
+  font-weight: bold;
 }
 
 div#zoovu-assistant button.navigation-back-button::before {
@@ -314,9 +333,12 @@ div#zoovu-assistant button.navigation-back-button::before {
 }
 
 div#zoovu-assistant button.start-over-button {
-  background-color: rgb(224, 222, 222);
-  color: rgb(48, 48, 48);
+  /* background-color: rgb(224, 222, 222); */
+  background: none;
+  /* color: rgb(48, 48, 48); */
+  color: rgb(101, 101, 101);
   text-transform: initial;
+  font-size: 16px;
 }
 
 div#zoovu-assistant .navigation-next-in-progress{
@@ -468,6 +490,34 @@ div#zoovu-assistant .modal-header {
   border-bottom: 1px solid #e5e5e5;
 }
 
+
+div#zoovu-assistant .page-selector-wrapper button.page-selector section{
+  display: none;
+}
+
+
+div#zoovu-assistant .page-selector-wrapper button.page-selector section span {
+  display: none;
+}
+
+div#zoovu-assistant .top-navigation {
+  /* position: absolute; */
+  /* top: 14px; */
+  /* max-width: 44rem; */
+}
+
+div#zoovu-assistant .product .properties-title {
+  color: rgb(48, 48, 48);
+}
+
+div#zoovu-assistant .modal-body .alternative-product-container .product-name  {
+  color: rgb(48, 48, 48);
+}
+
+
+
+
+
 @media screen and (max-width: 1450px) {
   div#zoovu-assistant .top-product .product-details .product-attributes-toggle {
 
@@ -568,7 +618,7 @@ div#zoovu-assistant .modal-header {
 @media screen and (max-width: 1096px) {
   div#zoovu-assistant .advice-top-products .top-product{
 
-    height: 40rem;
+    height: 55rem;
   }
 
   div#zoovu-assistant .top-product .product-price {
@@ -577,7 +627,11 @@ div#zoovu-assistant .modal-header {
 
   div#zoovu-assistant .top-product .product-details .product-attributes-toggle {
 
-    right: 0rem;
+    right: 15.8rem;
+  }
+
+  div#zoovu-assistant .product-properties {
+    margin-bottom: 20px;
   }
 }
 
@@ -636,12 +690,18 @@ div#zoovu-assistant .modal-header {
     right: 1rem;
   }
 
+
 }
 
 @media screen and (max-width: 764px) {
   div#zoovu-assistant .questions-wrapper .single-question-wrapper span.subQuestion {
     font-size: 20px;
     line-height: 2;
+  }
+
+
+  .picon-p-add-news {
+    text-align: center;
   }
 
 }
@@ -706,9 +766,9 @@ div#zoovu-assistant .modal-header {
 /* Testing */
 
 .picon-p-add-news {
-  color: rgb(48, 48, 48);
+  color: rgb(248, 244, 244);
   border: none;
-  background:rgb(224, 222, 222);
+  background:rgb(164, 164, 164);
   padding: 10px;
   font-size: 14px;
   font-weight: 600;
